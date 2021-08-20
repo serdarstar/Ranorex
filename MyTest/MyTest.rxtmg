@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="10.0">
+	<testsuiteentryhierarchy>
+		<flatlistofchildren>
+			<modulegroupdef
+			id="04a211eb-5c42-4568-83c3-fc6919bfd6a0"
+			name="ModuleGroup">
+			</modulegroupdef>
+			<testmodule
+			id="6943a1b0-8a3f-4494-b07d-8a38f8b3e0ee"
+			name="Add_Entry"
+			ref="d8e80894-1da9-4287-8eb1-aee06654c411"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="9b3b17fc-a189-45a9-84ca-baf22f09f56d"
+			name="Delete_Entry"
+			ref="a32b8c3b-2ea5-4f44-92a2-e8ad901850fd"
+			type="Recording">
+			</testmodule>
+			<modulegroups
+			id="ae7c0a39-45e6-4c8c-94fd-22de903b4a7a"
+			name="MyTest">
+			</modulegroups>
+		</flatlistofchildren>
+		<childhierarchy>
+			<modulegroups
+			id="ae7c0a39-45e6-4c8c-94fd-22de903b4a7a"
+			name="MyTest">
+				<modulegroupdef
+				id="04a211eb-5c42-4568-83c3-fc6919bfd6a0"
+				name="ModuleGroup">
+					<testmodule
+					id="6943a1b0-8a3f-4494-b07d-8a38f8b3e0ee"
+					name="Add_Entry">
+					</testmodule>
+					<testmodule
+					id="9b3b17fc-a189-45a9-84ca-baf22f09f56d"
+					name="Delete_Entry">
+					</testmodule>
+				</modulegroupdef>
+			</modulegroups>
+		</childhierarchy>
+	</testsuiteentryhierarchy>
+</modulegroupdoc>
